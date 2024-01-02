@@ -1,0 +1,15 @@
+# ------ BEGIN: Spring configurations ------
+spring:
+  application:
+    name: signup-ms
+
+server:
+  port: 8080
+
+bootstrapServers: kafka-1301504412-1-1413748672.scus.kafka-v2-cnps-hippa-stg.ms-df-messaging.stg-az-southcentralus-10.prod.us.walmart.net:9093
+topicName: canopus.index.dev
+retryCount: 3
+
+blobConnectionString: DefaultEndpointsProtocol=https;AccountName=04da7fbd12stg;AccountKey=tJwKGacebFRBZC28yUC251JCru5r/YUJ1kySRWKtD/+I69dgGUXgTAPFSYyLDmxSzXZ5ucpf8MMA+AStYxlWuA==;EndpointSuffix=core.windows.net
+
+# ------ END: Microservice configurations ------
